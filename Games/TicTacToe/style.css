@@ -364,7 +364,14 @@ h5{
     .device {
         display: none;
     }
+    .Div-Content1{
+    display:none;
+    }
+    
     h5 {
+        font-size:3rem;
+        color:red;
+        text-align:center;
         display: block;
     }
 }
