@@ -1,0 +1,265 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #950740;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #C3073F;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.main {
+    width: 63%;
+    margin: 0 auto;
+    min-height: 60vh;
+}
+
+body {
+    background-color: #1A1A1D;
+}
+
+header {
+    background-color: #0e0e0f;
+    height: 8vh;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+    margin: 0 auto;
+}
+
+header span img {
+    height: 50px;
+    width: 50px;
+}
+
+header span {
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+header p {
+    padding: 0 1rem 0 1rem;
+    color: green;
+}
+
+h1 {
+    color: #950740;
+    margin: 0.5rem;
+}
+
+mark {
+    background-color: #0e0e0f;
+    color: #4E4E50;
+}
+
+.Popular {
+    margin: 2rem;
+}
+
+input {
+    width: 15rem;
+    height: 30px;
+    padding: 0 2.5rem 0 1rem;
+    outline: none;
+    border: none;
+    background: crimson;
+    color: white;
+    border-radius: 30px;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    background-image: url(Img/Serach.svg);
+    background-repeat: no-repeat;
+    background-position: 13rem 6px;
+    background-size: 18px;
+}
+
+footer {
+    background-color: black;
+    height: 5rem;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Div-Content1 {
+    min-height: 60vh;
+}
+
+.Div-Content1 .box {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.games a img {
+    height: 5rem;
+    width: 12.7rem;
+}
+
+.box span:hover {
+    background-color: #930a33;
+    border-radius: 3px;
+}
+
+.box span:hover h2 {
+    color: #0e0e0f;
+}
+
+.box .gamespan {
+    padding-bottom: 1rem;
+    margin: 1rem 0.3rem 2rem 1rem
+}
+
+.box p {
+    max-width: 15rem;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    color: crimson;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.ratingbox {
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.ratingbox .rating p {
+    background-color: #07c900;
+    border-radius: 5px;
+    padding: 0.4rem;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.Div-Content1 div .games {
+    min-height: 5rem;
+    min-width: 15rem;
+    background-color: white;
+    margin: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.Game-Type {
+    height: 8vh;
+    background-color: #4E4E50;
+}
+
+.Game-Type div {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.AboutGame {
+    height: 5rem;
+}
+
+.Game-Type div a {
+    display: inline-block;
+    text-decoration: none;
+    color: crimson;
+    padding: 0 2rem 0 2rem;
+    cursor: pointer;
+}
+
+.Game-Type div a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: black;
+    transition: width .3s;
+}
+
+.Game-Type div a:hover::after {
+    width: 100%;
+}
+
+h2 {
+    margin: 50 auto;
+}
+
+.Showmore {
+    background-color: rgba(220, 20, 60, 0.699);
+    color: white;
+    border: none;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    margin: 0 auto;
+    width: 12rem;
+    height: 2rem;
+    border-radius: 0.6rem;
+}
+
+.Showmore:hover {
+    background-color: #930a33;
+    color: black;
+    cursor: pointer;
+}
+
+.ButtonDiv {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.accounticon {
+    color: #950740;
+    height: 30px;
+    width: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .Game-Type div a {
+        padding: 1rem;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .full {
+        display: none;
+    }
+    h5 {
+        display: block;
+    }
+}
