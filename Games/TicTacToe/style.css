@@ -353,6 +353,12 @@ h3 {
 h5{
     display:none;
 }
+@media only screen and (max-width: 1000px) {
+    .Game-Type div a {
+        padding: 1rem;
+        font-size: 14px;
+    }
+}
 
 @media only screen and (max-width: 650px) {
     .device {
@@ -362,3 +368,4 @@ h5{
         display: block;
     }
 }
+
