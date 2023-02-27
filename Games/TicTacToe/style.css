@@ -350,3 +350,15 @@ h3 {
     color: black;
     cursor: pointer;
 }
+h5{
+    display:none;
+}
+
+@media only screen and (max-width: 650px) {
+    .device {
+        display: none;
+    }
+    h5 {
+        display: block;
+    }
+}
